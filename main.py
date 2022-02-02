@@ -218,7 +218,7 @@ def read_root():
     return {"Hello": "World"}
 
 @app.post('/predict')
-async def predict(data: TranslationModel):
+def predict(data: TranslationModel):
     data = data.dict()
     data = data["input"]
     split_string = data.split('. ')
