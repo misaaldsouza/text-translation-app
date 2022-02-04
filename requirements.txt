@@ -4,7 +4,7 @@ pandas
 numpy
 matplotlib
 sklearn
-tensorflow
+tensorflow-cpu 
 fastapi
 uvicorn
 gunicorn
