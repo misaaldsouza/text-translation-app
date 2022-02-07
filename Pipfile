@@ -4,8 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pandas = "*"
-numpy = "*"
 matplotlib = "*"
 sklearn = "*"
 tensorflow-cpu = "*"
