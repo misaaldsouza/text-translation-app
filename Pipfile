@@ -4,6 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+matplotlib = "*"
+sklearn = "*"
+pandas = "*"
+gunicorn = "*"
 fastapi = "*"
 uvicorn = "*"
 uvloop = "*"
@@ -12,3 +17,5 @@ Flask = "*"
 
 [dev-packages]
 
+[requires]
+python_version = "3.10"
