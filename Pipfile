@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-tensorflow-cpu = "*"
 fastapi = "*"
 uvicorn = "*"
 uvloop = "*"
