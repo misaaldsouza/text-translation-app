@@ -4,17 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-matplotlib = "*"
-sklearn = "*"
 tensorflow-cpu = "*"
 fastapi = "*"
 uvicorn = "*"
-gunicorn = "*"
 uvloop = "*"
 httptools = "*"
-Flask = "==1.1.2"
+Flask = "*"
 
 [dev-packages]
 
-[requires]
-python_version = "3.10"
