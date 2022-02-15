@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+matplotlib
+sklearn
+tensorflow
+fastapi
+uvicorn
+gunicorn
+uvloop
+httptools
