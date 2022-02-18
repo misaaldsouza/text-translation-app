@@ -210,7 +210,7 @@ def translate(sentence):
   result, sentence, attention_plot = evaluate(sentence)
   return result
 
-checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
+# checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 
 @app.get("/")
 def read_root():
